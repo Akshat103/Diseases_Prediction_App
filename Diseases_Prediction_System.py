@@ -11,11 +11,11 @@ from streamlit_option_menu import option_menu
 
 #loading saved models
 
-diabetes_model = pickle.load(open('C:/Users/Akshat/OneDrive/Desktop/Diseases_Prediction/models/diabetes_model.sav','rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav','rb'))
 
-heart_diseases_model = pickle.load(open('C:/Users/Akshat/OneDrive/Desktop/Diseases_Prediction/models/Cardiac_Arrest_Prediction.sav','rb'))
+heart_diseases_model = pickle.load(open('Cardiac_Arrest_Prediction.sav','rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/Akshat/OneDrive/Desktop/Diseases_Prediction/models/Parkinsons_Prediction.sav','rb'))
+parkinsons_model = pickle.load(open('Parkinsons_Prediction.sav','rb'))
 
 #side bar navigation
 
